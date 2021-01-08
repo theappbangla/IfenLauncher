@@ -1,0 +1,114 @@
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\capito_logo.png
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Nancy.dll
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Nancy.Hosting.Self.dll
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Newtonsoft.Json.dll
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Nancy.xml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Nancy.Hosting.Self.xml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Newtonsoft.Json.xml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\MainWindow.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\App.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\MainWindow.baml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IfenLauncher.Properties.Resources.resources
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IfenLauncher.csproj.GenerateResource.cache
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IfenLauncher.csproj.CopyComplete
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\IFEN Neuroscience.exe.config
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\IFEN Neuroscience.exe
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\IFEN Neuroscience.pdb
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IfenLauncher.csprojAssemblyReference.cache
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IFEN Neuroscience_Content.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IFEN Neuroscience_MarkupCompile.cache
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IFEN Neuroscience_MarkupCompile.lref
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IFEN Neuroscience.g.resources
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IFEN Neuroscience.exe
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IFEN Neuroscience.pdb
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\brain_pinball_3d_logo.png
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Manuals\CAPTIO USER MANUAL BASIC EN.pdf
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Manuals\IFEN-Pinball-Manual-English.pdf
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Manuals\IFEN-Pinball-Manual-German.pdf
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\make_room_logo.png
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\ManualSelectMessageBox.baml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\WpfMessageBox.baml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\ManualSelectMessageBox.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\WpfMessageBox.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\DimmerWindow.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\DimmerWindow.baml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\dimmer_logo.png
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\InputControlWindow.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\InputControlWindow.baml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\LicenseWindow.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\LicenseWindow.baml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Manuals\Advanced-Dimmer-Manual-EN.pdf
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IfenLauncher.csproj.CoreCompileInputs.cache
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Atlantis\IFEN Pro-Z (Surface) BrainDx-A.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Atlantis\IFEN Pro-Z (Surface) qEEG-Pro-A.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Discovery\IFEN Pro-Z (Surface + sLORETA) BrainDx-D.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Discovery\IFEN Pro-Z (Surface + sLORETA) qEEG-Pro-D.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Discovery\IFEN Pro-Z (Surface) ANI-D.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Discovery\IFEN Pro-Z (Surface) BrainDx-D.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Discovery\IFEN Pro-Z (Surface) qEEG-Pro-D.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\ifen_airgame_logo_trial.png
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF Cross Frequency Left Frontal Gamma No Zscores HiResXXX 50 Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF Cross Frequency Precuneus Beta No Zscores HiResXXX 50 Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF dACC-PCC CounterSynch de Ridder No Zscores 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF Dis + sLORETA Basic dACCdeRidder No Zscores HiRes 50Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF Dis + sLORETA Basic No Zscores HiRes xxx 50 Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF Dis + sLORETA BP T3-T4 No Zscores HiResXXX 50 Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF Dis+sLORETA BasicNoZscoresdeRidderPain 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF sLORETA pgACCupDeRidderPain No Zscores 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF sLORETAdACC+SSCdownDeRidder No Zscores 50Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF sLORETAdACCPCCdeRidderUpDown No Zscores 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF sLORETAdeRidder dACCPCCDownUp No Zscores 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISF sLORETAdeRidder pgACCup No Zscores 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISFsLORETAdeRidderTinnitusW-Loss No Zscores 50 hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV No Zscores HiRes 50 Hz\ISFsLORETATinnitusNoLoss No Zscores 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF Cross Frequency Left Frontal Gamma QEEGPro HiResXXX 50 Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF Cross Frequency Precuneus Beta QEEGPro HiResXXX 50 Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF dACC-PCC CounterSynch de Ridder QEEGPro 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF Dis + sLORETA Basic dACCdeRidderQEEGPro HiRes 50Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF Dis + sLORETA Basic QEEGPro HiRes xxx 50 Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF Dis + sLORETA BP T3-T4 QEEGPro HiResXXX 50 Hz.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF Dis+sLORETA BasicQEEGProdeRidderPain 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF sLORETA pgACCupDeRidderPainQPro 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF sLORETAdACC+SSCdownDeRidderQPro50Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF sLORETAdACCPCCdeRidderUpDown QPro 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF sLORETAdeRidder dACCPCCDownUp Qpro 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISF sLORETAdeRidder pgACCup QEEGPro 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISFsLORETAdeRidderTinnitusW-Loss QEEGpro 50 hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN ISF ADV QEEGPro HiRes 50 Hz\ISFsLORETATinnitusNoLoss QEEGPro 50 Hz Hi Res.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\erp_analyzer.png
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\PlatformSelectMessageBox.baml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\PlatformSelectMessageBox.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Manuals\CAPTIO USER MANUAL DE.pdf
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\AudioSwitcher.AudioApi.CoreAudio.dll
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\AudioSwitcher.AudioApi.dll
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\ifen_roads_logo.png
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Deep States\Deep States_version1_FrontalBetaDown_PCCBeta_Alpha_DeltaDown.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Focus\Focus_Version1_ACCGammaUp_PCCBetaDown.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Focus\Focus_version2_ACCThetaUp_PrecuneusBetaDown.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Focus\Focus_version3_ACCGammaUp_PrecuneusBetaHibetaDown_PrecuneusAlpha1Up.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Focus\Focus_Version4_ACCGammaUp_PCCAlpha1Up.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Mindfulness\Mindfulness_version1_RInsulaGammaUp_PCCBetaDown.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Mindfulness\Mindfulness_version3_RInsulaGammaUp_PCCHibetaDown.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Open Heart\OpenHeart_version1_ACCGammaUp_R.InsulaGammaUp.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Open Heart\OpenHeart_version2_ACCGammaUp_R.InsulaGammaUp_FrontalAsymmetry.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Open Heart\OpenHeart_version3_L.FrontalGammaUp_R.InsulaGammaUp.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN sLORETA\Quiet Mind\Quiet Mind_version2_Alpha1UpPrecuneus_BetaHibetaGammaDownPrecuneus.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Two Channel\Deep States\Deep States_version1_1_20_Delta_Alpha_BetaDown_Atlantis.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Two Channel\Deep States\Deep States_version2_FZBetaDown_PZDelta_Alpha_BetaDown_Atlantis.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Two Channel\Focus\Focus_version1_FZGammaUp_PZBetaDown_Atlantis.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Two Channel\Focus\Focus_version2_FZThetaUp_PZBeta_Hibeta_GammaDown_Atlantis.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Two Channel\Mindfulness\Mindfulness_version1_GammaUpC4T4_HibetaDownPZ_Atlantis.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Two Channel\Open Heart\Open Heart_version1_C4_T4GammaUp_F3GammaUp_Atlantis.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Two Channel\Quiet Mind\Quiet Mind_version2_FZBetaDown_PZBeta_Hibeta_GammaDown_Atlantis.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN Two Channel\Quiet Mind\QuietMind_version1_PZAlpha1Up_Atlantis.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN HEG Protocols\IFEN HEG Atlantis.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN HEG Protocols\IFEN HEG Discovery DE.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Protocols\IFEN HEG Protocols\IFEN HEG Discovery.bdb2
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\CAPiTO Setup 2.10.21.35.exe
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\swingle_assessment_logo.png
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\utilities_logo.png
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Manuals\Swingle Assessment Manual DE.pdf
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Release\Assets\Manuals\Swingle Assessment Manual EN.pdf
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IfenUtilitiesDialog.baml
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Release\IfenUtilitiesDialog.g.cs

@@ -1,0 +1,185 @@
+﻿<Window x:Class="IfenLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IfenLauncher"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        Closing="Window_Closing"
+        Title="IFEN Neuroscience" Height="800" Width="1200" WindowStartupLocation="CenterScreen">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Width="250" Margin="20,20,0,20" Source="ifen_black.png" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top">
+                <TextBlock Text="V 2.6" HorizontalAlignment="Right" Margin="0 20 20 5"/>
+                <Button Cursor="Hand"
+                        x:Name="btnServer" 
+                        Content="Go Online" 
+                        Width="180" 
+                        Height="52"
+                        Click="ButtonServer"
+                        FontSize="24" 
+                        FontFamily="Oswald"
+                        Background="#FF009715"
+                        Margin="0 0 20 5"
+                        Visibility="Collapsed"
+                        Foreground="White"/>
+                <Button Cursor="Hand"
+                        x:Name="btnBrainAvatar"
+                        Width="180"
+                        Height="48" 
+                        Margin="0 5 20 0"
+                        Click="ButtonBrainAvatar"
+                        FontSize="24" 
+                        FontFamily="Oswald"
+                        Background="White" 
+                        Visibility="Visible"
+                        Foreground="White">
+                    <StackPanel  Orientation="Horizontal">
+                        <Image Margin="5 0 5 0" VerticalAlignment="Center" Source="brain_avatar_icon.png"/>
+                        <TextBlock Margin="0 0 10 0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="BrainAvatar" Foreground="Black" FontSize="18"/>
+                    </StackPanel>
+                </Button>
+                <Button Cursor="Hand"
+                        x:Name="btnNeuroGuide"
+                        Width="180"
+                        Height="48" 
+                        Margin="0 5 20 0"
+                        Click="ButtonNeuroGuide"
+                        FontSize="24" 
+                        FontFamily="Oswald"
+                        Background="White" 
+                        Visibility="Visible"
+                        Foreground="White">
+                    <StackPanel  Orientation="Horizontal">
+                        <Image Margin="5 0 5 0" VerticalAlignment="Center" Source="neuro_guide_icon.png"/>
+                        <TextBlock Margin="0 0 10 0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="NeuroGuide" Foreground="Black" FontSize="18"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <ScrollViewer Grid.Row="1" Background="White">
+            <StackPanel>
+                <Separator Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="All Products" Margin="20 0 0 0" VerticalAlignment="Center" FontSize="22" FontWeight="Medium"/>
+                    <StackPanel HorizontalAlignment="Right" Grid.Column="1" Orientation="Horizontal">
+                        <TextBlock x:Name="textIpAddress" Text="Computer IP Here" VerticalAlignment="Center" Margin="10 0 10 0" FontSize="20"/>
+                        <Button Height="40" BorderBrush="Transparent" Click="ButtonRefreshIP" x:Name="btnIpRefresh" Margin="10 0 10 0">
+                            <Image Source="refresh_ip.png"/>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+                <Separator Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}"/>
+                <StackPanel Margin="20 0">
+                    <ItemsControl x:Name="ListViewGames" ItemsSource="{Binding LauncherJson}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Margin="10" Width="200">
+                                    <StackPanel>
+                                        <Border Width="135" Height="135" CornerRadius="15" Margin="5">
+                                            <Border.Effect>
+                                                <DropShadowEffect ShadowDepth="1"/>
+                                            </Border.Effect>
+                                            <Border.Background>
+                                                <ImageBrush ImageSource="{Binding logo}"/>
+                                            </Border.Background>
+                                        </Border>
+                                        <TextBlock Margin="5" Text="{Binding name}" FontSize="20" FontFamily="Franklin Gothic Medium" TextAlignment="Center"/>
+                                        <TextBlock Margin="1" Text="{Binding version}" FontSize="12" FontFamily="Franklin Gothic" TextAlignment="Center"/>
+                                        <!--TextBlock Margin="5 0" Text="{Binding description}" FontSize="15" TextAlignment="Center"/-->
+                                        <Button Cursor="Hand" Margin="12 12 12 0" Padding="6 6 6 6" x:Name="manualBtn" Click="RunManualClick" Content="{Binding manualBtnText}" Background="#FF5C6665" Foreground="White" FontFamily="Gill Sans MT" FontSize="20"/>
+                                        <Button Cursor="Hand" Margin="12 8 12 12" Padding="12 12 12 12" x:Name="btnRunGame" Click="RunGameClick" Content="{Binding buttonText}" Background="#FF00B9FF" Foreground="White" FontFamily="Gill Sans MT" FontSize="20"/>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Cursor="Hand" Grid.Column="0" Background="White" x:Name="btnCapito" Click="HandleBottomButtons">
+                <Image
+                    Margin="8"
+                    Source="Assets/btn_buy_capito_logo.png"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"/>
+
+            </Button>
+            <Button Cursor="Hand" Grid.Column="1" Background="White" x:Name="btnNeurofeedbackPartner" Click="HandleBottomButtons">
+                <Image
+                    Margin="3"
+                    Source="btn_neurofeedback_partner.png"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"/>
+
+            </Button>
+            <Button Cursor="Hand" Grid.Column="2" Background="White" x:Name="btnIfen" Click="HandleBottomButtons">
+                <Image
+                    Margin="10"
+                    Source="btn_ifen_logo.png"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"/>
+
+            </Button>
+            <Button Cursor="Hand" Grid.Column="3" Background="White" x:Name="btnIfenProtocols" Click="HandleBottomButtons">
+                <Image
+                    Margin="7"
+                    Source="btn_ifen_neurofeedback_protocols.png"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"/>
+            </Button>
+
+            <Button Cursor="Hand" Grid.Column="4" Background="White" x:Name="btnProtocols" Click="HandleBottomButtons">
+                <Image
+                    Margin="7"
+                    Source="btn_pro_z_protocols.png"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"/>
+            </Button>
+            
+            <Button Cursor="Hand" Grid.Column="5" Background="White" x:Name="btnFreeCap" Click="HandleBottomButtons">
+                <Image
+                    Margin="7"
+                    Source="btn_free_cap.png"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"/>
+            </Button>
+
+        </Grid>
+
+    </Grid>
+</Window>
