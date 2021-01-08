@@ -41,7 +41,6 @@ namespace IfenLauncher
             //CompositionTarget.Rendering += UpdateDimmer;
 
             inputControlWindow = new InputControlWindow(this);
-            defaultPlaybackDevice = new CoreAudioController().DefaultPlaybackDevice;
 
             colors = new List<Color>();
             colors.Add(Colors.Red);
@@ -75,7 +74,7 @@ namespace IfenLauncher
             dot.Visibility = Visibility.Hidden;
 
             toggleDotVisibility();
-            toggleVolumeFeedback();
+            // toggleVolumeFeedback();
         }
 
         private void SetDotXY(double x, double y)
@@ -86,14 +85,14 @@ namespace IfenLauncher
 
         private void OnButtonKeyDown(object sender, KeyEventArgs e)
         {
-            if(e.Key == Key.Right)
+            if (e.Key == Key.Right)
             {
                 currentColorPos += 1;
                 if (currentColorPos >= colors.Count) currentColorPos = 0;
                 bg.Color = colors[currentColorPos];
             }
 
-            if(e.Key == Key.Left)
+            if (e.Key == Key.Left)
             {
                 currentColorPos -= 1;
                 if (currentColorPos < 0) currentColorPos = colors.Count - 1;
@@ -120,13 +119,14 @@ namespace IfenLauncher
 
             if (In5 == -1000f) return;
 
-            if(In5 != 0)
+            if (In5 != 0)
             {
                 if (bg.Opacity < 0.10) return;
                 bg.Opacity -= 0.01;
                 dot.Fill = new SolidColorBrush(GetBWColorFromAlphaChannel(bg.Opacity));
                 if (isVolumeSelected) defaultPlaybackDevice.Volume = defaultPlaybackDevice.Volume < 2 ? 0 : defaultPlaybackDevice.Volume - 1;
-            } else
+            }
+            else
             {
                 if (bg.Opacity > 0.90) return;
                 bg.Opacity += 0.01;
@@ -206,10 +206,10 @@ namespace IfenLauncher
 
         public void OnChangeFps(int fps)
         {
-            if(fps == -1) // -1 means monitor fps "D"
+            if (fps == -1) // -1 means monitor fps "D"
             {
-                fpsText.Text = "D"; 
-            } 
+                fpsText.Text = "D";
+            }
             else
             {
                 fpsText.Text = "" + fps;
@@ -233,6 +233,11 @@ namespace IfenLauncher
 
         private void toggleVolumeFeedback()
         {
+            if (defaultPlaybackDevice == null)
+            {
+                defaultPlaybackDevice = new CoreAudioController().DefaultPlaybackDevice;
+            }
+
             isVolumeSelected = !isVolumeSelected;
 
             if (isVolumeSelected)
@@ -246,7 +251,7 @@ namespace IfenLauncher
                 btnVolume.Foreground = Brushes.White;
             }
         }
-        
+
 
         private void toggleDotVisibility()
         {
@@ -293,7 +298,7 @@ namespace IfenLauncher
 
             SetDotXY(newX, newY);
             // Console.WriteLine("w = " + w + ", h = " + h + " --> newW = " + e.NewSize.Width + ", newH = " + e.NewSize.Height + " --> x = " + x + ", y = " + y);
-            
+
             // Console.WriteLine(w + ", " + h);
         }
     }

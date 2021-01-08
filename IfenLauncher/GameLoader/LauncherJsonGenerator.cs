@@ -110,7 +110,7 @@ namespace IfenLauncher.GameLoader
             dimmer.manuals = new List<Manual>() {
                     new Manual("English", ManualPathManager.ADVANCED_DIMMER_ENGLISH),
                 };
-            dimmer.version = "2.0";
+            dimmer.version = "2.1";
             return dimmer;
         }
 
@@ -145,6 +145,7 @@ namespace IfenLauncher.GameLoader
             launcherJson.flag = "ifenutilities";
             launcherJson.manualBtnText = "Manuals";
             launcherJson.manuals = new List<Manual>();
+            launcherJson.version = "1.0";
             launcherJson.serverNotRequired = true;
             return launcherJson;
         }
