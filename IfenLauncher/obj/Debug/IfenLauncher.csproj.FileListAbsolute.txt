@@ -11,15 +11,6 @@ C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IfenLauncher.
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IfenLauncher.csproj.GenerateResource.cache
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IfenLauncher.csproj.CopyComplete
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\capito_logo.png
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\IFEN Neuroscience.exe.config
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\IFEN Neuroscience.exe
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\IFEN Neuroscience.pdb
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience_Content.g.cs
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience_MarkupCompile.cache
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience_MarkupCompile.lref
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience.g.resources
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience.exe
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience.pdb
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IfenLauncher.csprojAssemblyReference.cache
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\WpfMessageBox.baml
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\WpfMessageBox.g.cs
@@ -105,10 +96,19 @@ C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\ifen_r
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\Protocols\IFEN HEG Protocols\IFEN HEG Atlantis.bdb2
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\Protocols\IFEN HEG Protocols\IFEN HEG Discovery DE.bdb2
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\Protocols\IFEN HEG Protocols\IFEN HEG Discovery.bdb2
-C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\CAPiTO Setup 2.10.21.35.exe
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\utilities_logo.png
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IfenUtilitiesDialog.baml
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IfenUtilitiesDialog.g.cs
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\swingle_assessment_logo.png
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\Manuals\Swingle Assessment Manual DE.pdf
 C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\Manuals\Swingle Assessment Manual EN.pdf
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\Assets\CAPiTO Setup 2.10.21.36.exe
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\IFEN Neuroscience Launcher.exe.config
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\IFEN Neuroscience Launcher.exe
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\bin\Debug\IFEN Neuroscience Launcher.pdb
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience Launcher_Content.g.cs
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience Launcher_MarkupCompile.cache
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience Launcher_MarkupCompile.lref
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience Launcher.g.resources
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience Launcher.exe
+C:\Users\mubin986\source\repos\IfenLauncher\IfenLauncher\obj\Debug\IFEN Neuroscience Launcher.pdb

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         ResizeMode="CanMinimize"
         Closing="Window_Closing"
-        Title="IFEN Neuroscience" Height="800" Width="1200" WindowStartupLocation="CenterScreen">
+        Title="IFEN Neuroscience Launcher" Height="800" Width="1200" WindowStartupLocation="CenterScreen">
     
     <Grid>
         <Grid.RowDefinitions>
@@ -23,7 +23,7 @@
             </Grid.ColumnDefinitions>
             <Image Grid.Column="0" Width="250" Margin="20,20,0,20" Source="ifen_black.png" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
             <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top">
-                <TextBlock Text="V 2.7" HorizontalAlignment="Right" Margin="0 20 20 5"/>
+                <TextBlock Text="V 2.8" HorizontalAlignment="Right" Margin="0 20 20 5"/>
                 <Button Cursor="Hand"
                         x:Name="btnServer" 
                         Content="Go Online" 

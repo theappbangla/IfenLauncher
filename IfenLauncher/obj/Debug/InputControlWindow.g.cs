@@ -68,7 +68,7 @@ namespace IfenLauncher {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/IFEN Neuroscience;component/inputcontrolwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/IFEN Neuroscience Launcher;component/inputcontrolwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\InputControlWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

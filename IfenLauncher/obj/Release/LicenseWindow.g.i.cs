@@ -92,7 +92,7 @@ namespace IfenLauncher {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/IFEN Neuroscience;component/licensewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/IFEN Neuroscience Launcher;component/licensewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\LicenseWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

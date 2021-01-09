@@ -100,7 +100,7 @@ namespace IfenLauncher {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/IFEN Neuroscience;component/dimmerwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/IFEN Neuroscience Launcher;component/dimmerwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\DimmerWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -7,7 +7,7 @@
     <ProjectGuid>{7A96C84D-F12F-4D9B-B011-B279A56062C1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>IfenLauncher</RootNamespace>
-    <AssemblyName>IFEN Neuroscience</AssemblyName>
+    <AssemblyName>IFEN Neuroscience Launcher</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -200,7 +200,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Content Include="Assets\CAPiTO Setup 2.10.21.35.exe">
+    <Content Include="Assets\CAPiTO Setup 2.10.21.36.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\dimmer_logo.png">

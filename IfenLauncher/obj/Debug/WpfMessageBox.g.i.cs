@@ -107,7 +107,7 @@ namespace IfenLauncher {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/IFEN Neuroscience;component/wpfmessagebox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/IFEN Neuroscience Launcher;component/wpfmessagebox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\WpfMessageBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
