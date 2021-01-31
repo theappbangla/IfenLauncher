@@ -39,10 +39,54 @@ namespace IfenLauncher
                 case "btnDeleteGsettings":
                     RemoveGSettings();
                     break;
+                case "btnFixFlashStep1":
+                    MessageBoxResult result = MessageBox.Show("Click OK.\nIt will popup flash player uninstaller.\nMust click on uninstall.\nThen, click Done and run Step-2.",
+                                                  "Note - Must Read",
+                                                  MessageBoxButton.OK,
+                                                  System.Windows.MessageBoxImage.Information);
+
+                    if (result == MessageBoxResult.OK)
+                    {
+                        FlashFix1();
+                    }
+                    break;
+                case "btnFixFlashStep2":
+                    FlashFix2();
+                    MessageBox.Show("Please restart IFEN Neuroscience Launcher.",
+                                        "Success",
+                                        MessageBoxButton.OK,
+                                        System.Windows.MessageBoxImage.Information);
+                    break;
 
                 default:
                     break;
             }
+        }
+
+        private void FlashFix1()
+        {
+            var proc1 = new ProcessStartInfo();
+            string anyCommand = @"C:\Windows\SysWOW64\Macromed\Flash\FlashUtil_ActiveX.exe";
+            proc1.UseShellExecute = true;
+            proc1.WorkingDirectory = @"C:\Windows\System32";
+            proc1.FileName = @"C:\Windows\System32\cmd.exe";
+            proc1.Verb = "runas";
+            proc1.Arguments = "/c " + anyCommand;
+            proc1.WindowStyle = ProcessWindowStyle.Hidden;
+            Process.Start(proc1);
+        }
+
+        private void FlashFix2()
+        {
+            var proc1 = new ProcessStartInfo();
+            string anyCommand = @"C:\Windows\SysWOW64\regsvr32.exe ""C:\Program Files (x86)\IFEN Neuroscience\Assets\Flash32_32_0_0_371.ocx""";
+            proc1.UseShellExecute = true;
+            proc1.WorkingDirectory = @"C:\Windows\System32";
+            proc1.FileName = @"C:\Windows\System32\cmd.exe";
+            proc1.Verb = "runas";
+            proc1.Arguments = "/c " + anyCommand;
+            proc1.WindowStyle = ProcessWindowStyle.Hidden;
+            Process.Start(proc1);
         }
 
         private void CloseMe()

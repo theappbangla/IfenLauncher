@@ -7,14 +7,16 @@
      SizeToContent="WidthAndHeight" 
      WindowStartupLocation="CenterScreen"  
      ShowInTaskbar="False" ResizeMode="NoResize" 
-     WindowStyle="None" Topmost="True">
+     WindowStyle="None" >
 
     <StackPanel Margin="20 16 20 16">
         <TextBlock Text="IFEN Utilities" HorizontalAlignment="Center" FontSize="24" FontFamily="Segoe UI Black"/>
 
-        <Border Margin="10" Width="250">
+        <Border Margin="10" Width="280">
             <StackPanel>
                 <Button Cursor="Hand" Margin="12 8 12 12" Padding="12 12 12 12" x:Name="btnDeleteGsettings" Click="OnClick" Content="Delete gsettings" Background="#FF5B6FEA" Foreground="White" FontFamily="Gill Sans MT" FontSize="20"/>
+                <Button Cursor="Hand" Margin="12 8 12 12" Padding="12 12 12 12" x:Name="btnFixFlashStep1" Click="OnClick" Content="Flash Player Fix (Step 1)" Background="#FF5B6FEA" Foreground="White" FontFamily="Gill Sans MT" FontSize="20"/>
+                <Button Cursor="Hand" Margin="12 8 12 12" Padding="12 12 12 12" x:Name="btnFixFlashStep2" Click="OnClick" Content="Flash Player Fix (Step 2)" Background="#FF5B6FEA" Foreground="White" FontFamily="Gill Sans MT" FontSize="20"/>
             </StackPanel>
         </Border>
 

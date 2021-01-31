@@ -10,7 +10,7 @@ namespace IfenLauncher.Installer
 {
     class CapitoInstaller
     {
-        string capitoSetup = @"CAPiTO Setup 2.10.21.36.exe";
+        string capitoSetup = @"CAPiTO Setup 2.10.21.38.exe";
         string capitoSetupFullPath;
         string capitoInstalledExeFullPath;
 

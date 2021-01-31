@@ -114,6 +114,7 @@
     <Compile Include="InputControlWindow.xaml.cs">
       <DependentUpon>InputControlWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Installer\SensoxInstaller.cs" />
     <Compile Include="Installer\CapitoInstaller.cs" />
     <Compile Include="LicenseWindow.xaml.cs">
       <DependentUpon>LicenseWindow.xaml</DependentUpon>
@@ -135,6 +136,9 @@
     <Compile Include="Server\IpDetectListener.cs" />
     <Compile Include="Server\MainModule.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="UpdateCenter\GameUpdate.cs" />
+    <Compile Include="UpdateCenter\GameUtils.cs" />
+    <Compile Include="UpdateCenter\IfenGameUpdate.cs" />
     <Compile Include="Utils\Brightness.cs" />
     <Compile Include="Utils\ManualPathManager.cs" />
     <Compile Include="Utils\TimedAction.cs" />
@@ -200,10 +204,19 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Content Include="Assets\CAPiTO Setup 2.10.21.36.exe">
+    <Content Include="Assets\CAPiTO Setup 2.10.21.38.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\dimmer_logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Flash32_32_0_0_371.ocx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\senso-x_7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SensoX\setup.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\swingle_assessment_logo.png">
@@ -432,6 +445,63 @@
     <Content Include="Assets\Manuals\Swingle Assessment Manual EN.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ACC-PCC Damped THR.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Atlantis 2ch qEEG-Pro T3T4 16b.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Atlantis 2ch qEEG-Pro T4P4 16b.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Atlantis Alpha Enh 2ch qEEG-Pro T3T4 16b.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Atlantis Alpha Enh 2ch qEEG-Pro T4P4 16b.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Cross Frequency Precuneus Beta QEEGPro HiResXXX.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Dis + sLORETA Basic QEEGPro HiRes xxx.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Dis + sLORETA Basic QEEGPro HiRes xxx\ISF Dis + sLORETA Basic QEEGPro HiRes xxx.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Dis + sLORETA BP T3-T4 QEEGPro HiResXXX.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery 2ch qEEG-Pro T3-T4.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery 2ch qEEG-Pro T4-P4.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery Alpha Enh 2ch qEEG-Pro T3-T4.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery Alpha Enh 2ch qEEG-Pro T4-P4.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery 2ch qEEG-Pro T3-T4.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery 2ch qEEG-Pro T4-P4.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery Alpha Enh 2ch qEEG-Pro T3-T4.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Protocols\ISF Protocols\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery EEG-Pro Beginner HiRes\ISF Discovery Alpha Enh 2ch qEEG-Pro T4-P4.bdb2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Manuals\SensoX-Manual-German.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Assets\SensoX\paket.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

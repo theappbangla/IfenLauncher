@@ -21,9 +21,29 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" Width="250" Margin="20,20,0,20" Source="ifen_black.png" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+            <StackPanel Grid.Column="0" Orientation="Horizontal" >
+                <Image  Width="250" Margin="20,20,0,20" Source="ifen_black.png" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+                <StackPanel Margin="40 0 0 0"  x:Name="panelUpdate" Visibility="Collapsed" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock x:Name="txtUpdateAvailable" Margin="0 0 10 0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Update Text" Foreground="Black" FontSize="14"/>
+                    <Button Cursor="Hand"
+                        x:Name="btnUpdate"
+                        Width="180"
+                        Height="48" 
+                        Click="OnClickUpdateNow"
+                        FontSize="24" 
+                        Margin="0 5 0 0"
+                        FontFamily="Oswald"
+                        Background="#FF00FFAE" 
+                        Visibility="Visible"
+                        Foreground="White">
+                        <StackPanel  Orientation="Horizontal">
+                            <TextBlock Margin="0 0 0 0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Download Update" Foreground="Black" FontSize="18"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
             <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top">
-                <TextBlock Text="V 2.8" HorizontalAlignment="Right" Margin="0 20 20 5"/>
+                <TextBlock x:Name="txtVersion" Text="Version" HorizontalAlignment="Right" Margin="0 20 20 5"/>
                 <Button Cursor="Hand"
                         x:Name="btnServer" 
                         Content="Go Online" 

@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Windows.Controls;
 using System.Diagnostics;
 using IfenLauncher.Utils;
+using IfenLauncher.UpdateCenter;
 using System.Net.NetworkInformation;
 
 namespace IfenLauncher
@@ -22,14 +23,18 @@ namespace IfenLauncher
         MakeRoomCopy makeRoomCopy;
         FolderCopy folderCopy;
         CapitoInstaller capitoInstaller;
+        SensoxInstaller sensoxInstaller;
 
         MyProcessManager processManager;
 
         IpDetect ipDetect;
 
+        GameUpdate gameUpdate;
+
         public MainWindow()
         {
             InitializeComponent();
+            txtVersion.Text = "V " + GameUtils.GAME_VERSION;
 
             ifenFeedbackCopy = new IFENFeedbackCopy();
             ifenFeedbackCopy.HandleBrainCellFile();
@@ -41,6 +46,7 @@ namespace IfenLauncher
             folderCopy.DoCopy();
 
             capitoInstaller = new CapitoInstaller();
+            sensoxInstaller = new SensoxInstaller();
 
             ifenHost = new IfenHost();
 
@@ -60,6 +66,36 @@ namespace IfenLauncher
 
 
             StartServer();
+
+            var updateCenter = new IfenGameUpdate();
+            updateCenter.fetch(OnFetchUpdate);
+        }
+
+        private void OnFetchUpdate(bool isUpdateAvailable, GameUpdate gameUpdate)
+        {
+            this.gameUpdate = gameUpdate;
+            if (isUpdateAvailable)
+            {
+                txtUpdateAvailable.Text = gameUpdate.updateText;
+                panelUpdate.Visibility = Visibility.Visible;
+            } else
+            {
+                if (gameUpdate == null)
+                {
+                    panelUpdate.Visibility = Visibility.Collapsed;
+                } else
+                {
+                    btnUpdate.Visibility = Visibility.Collapsed;
+                    txtUpdateAvailable.Text = gameUpdate.upToDateText;
+                    panelUpdate.Visibility = Visibility.Visible;
+                }
+            }
+        }
+
+        private void OnClickUpdateNow(object sender, RoutedEventArgs e)
+        {
+            if (gameUpdate == null) return;
+            Process.Start(gameUpdate.url);
         }
 
         private void AvailabilityChanged(object sender, NetworkAvailabilityEventArgs e)
@@ -131,13 +167,14 @@ namespace IfenLauncher
             }
 
             launchers.Insert(0, LauncherJsonGenerator.GetCapito());
-            launchers.Insert(1, LauncherJsonGenerator.GetAdvancedDimmer());
-            launchers.Insert(2, LauncherJsonGenerator.GetIfenUtilities());
-            launchers.Insert(3, LauncherJsonGenerator.GetMakeRoom());
+            launchers.Insert(1, LauncherJsonGenerator.GetSensoX());
+            launchers.Insert(2, LauncherJsonGenerator.GetAdvancedDimmer());
+            launchers.Insert(3, LauncherJsonGenerator.GetIfenUtilities());
+            launchers.Insert(4, LauncherJsonGenerator.GetMakeRoom());
 
             if (!isIfenRoads)
             {
-                launchers.Insert(4, LauncherJsonGenerator.GetIfenRoads());
+                launchers.Insert(5, LauncherJsonGenerator.GetIfenRoads());
             }
 
             if (!isPinball)
@@ -216,6 +253,10 @@ namespace IfenLauncher
                 {
                     case "capito":
                         capitoInstaller.RunInstallerOrProgram();
+                        break;
+
+                    case "sensox":
+                        sensoxInstaller.RunInstallerOrProgram();
                         break;
 
                     case "makeroom":

@@ -17,9 +17,9 @@ namespace IfenLauncher.GameLoader
         public static LauncherJson GetCapito()
         {
             LauncherJson capito = new LauncherJson();
-            capito.exeTitle = "FlashPlayer"; // no effect
+            capito.exeTitle = "Capito by IFEN"; // no effect
             //capito.exeLocation = processStartManager.GetFlashPlayerExePath(); // no effect
-            capito.description = "Free with IFEN Neuroscience";
+            capito.description = "Developed by IFEN Neuroscience";
             capito.name = "Capito";
             capito.logo = Environment.CurrentDirectory + @"\Assets\capito_logo.png";
             capito.buttonText = "Open";
@@ -30,6 +30,23 @@ namespace IfenLauncher.GameLoader
                 new Manual("German", ManualPathManager.CAPITO_GERMAN)
             };
             return capito;
+        }
+
+        public static LauncherJson GetSensoX()
+        {
+            LauncherJson item = new LauncherJson();
+            item.exeTitle = "SensoX by IFEN"; // no effect
+            //capito.exeLocation = processStartManager.GetFlashPlayerExePath(); // no effect
+            item.description = "Developed by IFEN Neuroscience";
+            item.name = "SensoX";
+            item.logo = Environment.CurrentDirectory + @"\Assets\senso-x_7.jpg";
+            item.buttonText = "Open";
+            item.flag = "sensox";
+            item.manualBtnText = "Manuals";
+            item.manuals = new List<Manual>() {
+                new Manual("German", ManualPathManager.SENSOX_GERMAN)
+            };
+            return item;
         }
 
         public static LauncherJson GetMakeRoom()

@@ -23,5 +23,8 @@ namespace IfenLauncher.Utils
         public static string SWINGLE_ASSESSMENT_ENGLISH = manualPath + "Swingle Assessment Manual EN.pdf";
         public static string SWINGLE_ASSESSMENT_GERMAN = manualPath + "Swingle Assessment Manual DE.pdf";
 
+
+        public static string SENSOX_GERMAN = manualPath + "SensoX-Manual-German.pdf";
+
     }
 }
